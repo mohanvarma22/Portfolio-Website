@@ -7,12 +7,12 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
+    title: "Flask Blogging Website",
+    description: "A Full stack website where users can share their blogs",
+    image: "/images/projects/flaskwebsite.jpg",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/mohanvarma22/flask",
+    previewUrl: "https://bit.ly/4059mjI",
   },
   {
     id: 2,

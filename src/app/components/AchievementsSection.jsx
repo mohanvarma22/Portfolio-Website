@@ -11,23 +11,27 @@ const AnimatedNumbers = dynamic(
 
 const achievementsList = [
   {
+    metric: "DSA Problems Solved",
+    value: "200",
+    postfix: "+"
+  },
+  {
     metric: "Projects",
-    value: "100",
+    value: "10",
     postfix: "+",
   },
   {
-    prefix: "~",
-    metric: "Users",
-    value: "100,000",
+    
+    metric: "CGPA",
+    value: "8.53",
   },
   {
-    metric: "Awards",
-    value: "7",
+    
+    metric: "Papers Published",
+    value: "1",
   },
-  {
-    metric: "Years",
-    value: "5",
-  },
+  
+ 
 ];
 
 const AchievementsSection = () => {
@@ -44,7 +48,7 @@ const AchievementsSection = () => {
                 {achievement.prefix}
                 <AnimatedNumbers
                   includeComma
-                  animateToNumber={parseInt(achievement.value)}
+                  animateToNumber={parseFloat(achievement.value)}
                   locale="en-US"
                   className="text-white text-4xl font-bold"
                   configs={(_, index) => {
