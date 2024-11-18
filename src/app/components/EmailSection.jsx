@@ -51,7 +51,7 @@ const EmailSection = () => {
       id="contact"
       className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
     >
-      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
+      
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">
           Let&apos;s Connect
@@ -160,6 +160,7 @@ const EmailSection = () => {
           </form>
         )}
       </div>
+      {/* <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute sm:bottom-0 sm:left-4 sm:transform sm:translate-x-1/2 sm:translate-y-8 md:h-96 md:w-96 md:left-0 md:bottom-4 md:translate-x-0 md:translate-y-8"></div> */}
     </section>
   );
 };
