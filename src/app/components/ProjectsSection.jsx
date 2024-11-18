@@ -20,7 +20,7 @@ const projectsData = [
     description: "Created a portfoloio website using nextjs",
     image: "/images/projects/mohan.jpg",
     tag: ["All", "Web"],
-    gitUrl: "/https://github.com/mohanvarma22/Portfolio-Website",
+    gitUrl: "https://github.com/mohanvarma22/Portfolio-Website",
     previewUrl: "/",
   },
   // {
