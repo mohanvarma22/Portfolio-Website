@@ -18,9 +18,9 @@ const projectsData = [
     id: 2,
     title: "Portfolio Website",
     description: "Created a portfoloio website using nextjs",
-    image: "/images/projects/2.png",
+    image: "/images/projects/mohan.jpg",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "/https://github.com/mohanvarma22/Portfolio-Website",
     previewUrl: "/",
   },
   // {
@@ -95,11 +95,11 @@ const ProjectsSection = () => {
           name="Web"
           isSelected={tag === "Web"}
         />
-        <ProjectTag
+        {/* <ProjectTag
           onClick={handleTagChange}
           name="Mobile"
           isSelected={tag === "Mobile"}
-        />
+        /> */}
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (

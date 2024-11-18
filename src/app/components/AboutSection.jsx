@@ -24,7 +24,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Amrita School Of Engineering<ul className="list-disc pl-6">
-            <li>B.Tech in Electrical and Computer Science Engineering</li>
+            <li>B.Tech in Electrical and Computer Engineering</li>
             <li>CGPA: 8.53/10</li>
           </ul></li>
         

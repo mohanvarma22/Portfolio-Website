@@ -38,20 +38,22 @@ const HeroSection = () => {
             Looking for oppurtunities in web development domain
           </p>
           <div>
+          <Link
+  href="/#contact"
+  className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 text-white transition-all duration-300 ease-in-out relative transform hover:scale-105 hover:shadow-lg hover:shadow-primary-500"
+>
+  Hire Me
+  <span className="absolute bottom-0 left-0 w-0 h-1 bg-white transition-all duration-300 ease-in-out group-hover:w-full"></span>
+</Link>
             <Link
-              href="/#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
-            >
-              Hire Me
-            </Link>
-            <Link
-              href="/"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
-            >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
-              </span>
-            </Link>
+  href="https://drive.google.com/file/d/11nrYD6PmTx4GPYWVANabsDJXHIXw7HKB/view?usp=drive_link"
+  target="_blank"
+  className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 text-white mt-3 transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:shadow-primary-500"
+>
+  <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+    Download Resume
+  </span>
+</Link>
           </div>
         </motion.div>
         <motion.div
